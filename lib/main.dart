@@ -13,7 +13,6 @@ void main() => runApp(TodoScreen(
         (i) => Todo("title #$i",
             "A description of what needs to be done for todo $i"))));
 
-
 class TodoScreen extends StatelessWidget {
   final List<Todo> todos;
 
